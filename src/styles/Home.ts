@@ -17,6 +17,7 @@ export const TitleContainer = styled.div`
 
     h1{
         color: #FFF;
+        font-size: 44px;
         margin: 50px 0;
     }
 `
@@ -42,4 +43,10 @@ export const InputContainer = styled.div`
         background: none;
         border: none;
     }
+`
+
+export const Main = styled.div`
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
 `

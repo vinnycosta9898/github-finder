@@ -1,9 +1,11 @@
 import { Container,
          HeaderContainer,
          TitleContainer,
-         InputContainer
+         InputContainer, 
+         Main
         } from './styles/Home';
-import { BsSearch } from 'react-icons/bs'
+import { BsSearch } from 'react-icons/bs';
+import { Profile } from './components/Profile';
 
 function App() {
 
@@ -25,8 +27,11 @@ function App() {
             />
           </button>
         </InputContainer>
-        
       </HeaderContainer>
+
+      <Main>
+        <Profile/>
+      </Main>
     </Container>
   )
 }
