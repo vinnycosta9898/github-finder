@@ -42,6 +42,7 @@ export const InputContainer = styled.div`
 
         background: none;
         border: none;
+        cursor: pointer;
     }
 `
 
